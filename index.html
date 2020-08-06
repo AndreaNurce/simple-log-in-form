@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>javaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="tooogle" onclick="toggle()">
+    <img id="toogle" class="costumizeIcon" src="images/rgb.png" height="32px" width="32px" alt="">
+  </div>
+
+  <div id="tooogle" onclick="origin()">
+    <img id="secondImage" class="hidenBackArow" height="32px" width="32px" src="images/back.png" alt="">
+  </div>
+
+
+  <div id="itemList" class="items">
+      <h2 class="edit">Edit</h2><hr class=".hr"><br>
+
+      <h1 class="bg-color">BG Color</h1>
+
+      <div class="bg-changer-div">
+
+        <div class="bg-circles" id="bg1"  onclick="bgColor1()" style="background-color:#606060FF">
+
+        </div>
+
+        <div class="bg-circles" id="bg2"  onclick="bgColor2()" style="background-color:#2C5F2D">
+
+        </div>
+
+        <div class="bg-circles" id="bg3"  onclick="bgColor3()" style="background-color:#00539CFF">
+
+        </div>
+
+        <div class="bg-circles"id="bg4"  onclick="bgColor4()" style="background-color:#B1624EFF">
+
+        </div>
+
+        <div class="bg-circles" id="bg5"  onclick="bgColor5()" style="background-color:#101820FF">
+
+        </div>
+
+        <div class="bg-circles" id="bg6"  onclick="bgColor6()" style="background-color:#4B878BFF">
+
+        </div>
+
+        <div class="bg-circles"id="bg7"  onclick="bgColor7()" style="background-color:#F93822FF">
+
+        </div>
+
+        <div class="bg-circles"id="bg8"  onclick="bgColor8()" style="background-color:#006B38FF">
+
+        </div>
+
+        <div class="bg-circles" id="bg9"  onclick="bgColor9()" style="background-color:#F95700FF" >
+
+        </div>
+
+        <div class="bg-circles"id="bg10"  onclick="bgColor10()" style="background-color:#D198C5FF">
+
+        </div>
+
+
+      </div><br /><br>
+      <hr>
+      <div class="form-changer-div">
+        <h2 class="form-h2">Form Background</h2>
+
+
+
+        <div  class="fm-circles" id="fm1"  onclick="fmColor1()" style="background-color:#97BC62FF">
+
+        </div>
+        <div class="fm-circles" id="fm2"  onclick="fmColor2()" style="background-color:#EEA47FFF">
+
+        </div>
+        <div class="fm-circles" id="fm3"  onclick="fmColor3()" style="background-color:#5CC8D7FF">
+
+        </div>
+        <div class="fm-circles" id="fm4"  onclick="fmColor4()" style="background-color:#F2AA4CFF">
+
+        </div>
+        <div class="fm-circles" id="fm5"  onclick="fmColor5()" style="background-color:#D01C1FFF">
+
+        </div>
+        <div class="fm-circles" id="fm6"  onclick="fmColor6()" style="background-color:#FDD20EFF">
+
+        </div>
+        <div class="fm-circles" id="fm7"  onclick="fmColor7()" style="background-color:#101820FF">
+
+        </div>
+        <div class="fm-circles" id="fm8"  onclick="fmColor8()" style="background-color:#F1F32FFD">
+
+        </div>
+        <div class="fm-circles" id="fm9"  onclick="fmColor9()" style="background-color:#E0C568FF">
+
+        </div>
+
+        <div  class="fm-circles"id="fm10"  onclick="fmColor10()" style="background-color:#D6ED17FF">
+        </div>
+
+
+      </div>
+
+  </div>
+
+  <p>a</p>
+
+  <h1 contentEditable="true">Let's log in and go somewhere else!</h1>
+
+  <div id="loogin" class="loginStyle" style="background-color: #FEE715FF;">
+    <input class="input" type="text" name="name" placeholder="Your Name"><br />
+    <input class="input" type="text" name="userName" placeholder="User Name"><br>
+    <input class="input" type="email" name="email" placeholder="example@example.com"><br>
+    <input class="input" type="password" id="password" name="password" placeholder="Set your password"><br>
+    <input class="input" type="password" id="confirmPassword" name="password" placeholder="Cofirm your password"><br>
+    <input type="submit" name="" value="Go" id="goo" onclick="redirect()">
+  </div>
+
+  <script type="text/javascript" src="style.js"></script>
+
+</body>
+
+</html>
